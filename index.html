@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070812">
+  <meta name="description" content="Karan Yadav — BTech student and aspiring software developer building web projects and strengthening DSA foundations.">
+  <title>Karan Yadav — Aspiring Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <canvas class="starfield" aria-hidden="true"></canvas>
+  <div class="nebula nebula-one" aria-hidden="true"></div><div class="nebula nebula-two" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Karan Yadav home"><span class="brand-mark">KY</span><span>Karan Yadav</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" aria-label="Main navigation"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a></nav>
+    <button class="sound-toggle" type="button" aria-pressed="false" title="Enable ambient space sound"><span class="sound-icon" aria-hidden="true">♫</span><span class="sound-label">Sound off</span></button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO INTERNSHIP OPPORTUNITIES</p>
+        <p class="intro">Hello, I’m</p>
+        <h1>Karan <span>Yadav</span></h1>
+        <p class="hero-role">Aspiring Software Developer <i>·</i> BTech 2nd Year Student</p>
+        <p class="hero-description">I’m learning by building — strengthening my C++ and problem-solving foundations while creating thoughtful web experiences.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a><a class="button button-quiet" href="#contact">Get in touch <span aria-hidden="true">→</span></a></div>
+        <div class="social-links"><a href="#contact">Resume <span>↗</span></a><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub <span>↗</span></a><a href="https://linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a></div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Profile photo placeholder">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="planet-glow"></div>
+        <div class="profile-frame"><div class="profile-placeholder"><span class="profile-initials">KY</span><span class="photo-note">YOUR PHOTO HERE</span></div></div>
+        <span class="orbit-star star-a">✦</span><span class="orbit-star star-b">✧</span>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
+    </section>
+
+    <section class="section content-section" id="about"><div class="section-heading reveal"><p class="eyebrow">01 / A LITTLE ABOUT ME</p><h2>Curious by nature.<br><span>Building with purpose.</span></h2></div>
+      <div class="about-grid"><p class="about-lead reveal">I’m a second-year BTech student passionate about web development and solving problems one step at a time.</p><div class="about-copy reveal"><p>Right now, I’m strengthening my foundations in Data Structures &amp; Algorithms with C++ and turning ideas into real-world web projects. I enjoy the process of learning something new, experimenting, and making it work.</p><p>My goal is to grow into a dependable software developer and earn an opportunity to learn alongside great engineering teams at a leading company.</p><div class="focus-line"><span class="focus-icon">✦</span><span>Currently focused on <strong>C++ DSA</strong> and <strong>front-end development</strong></span></div></div></div>
+    </section>
+
+    <section class="section content-section" id="skills"><div class="section-heading reveal"><p class="eyebrow">02 / MY TOOLKIT</p><h2>Skills in progress<span class="accent">.</span></h2><p class="section-subtitle">The tools I use today, and the foundations I’m actively growing.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><span class="card-index">01</span><div class="skill-symbol">⌘</div><h3>Programming</h3><p>Learning to think clearly and solve problems efficiently.</p><div class="tags"><span>C++</span><span>Data Structures</span><span>Arrays</span></div></article>
+        <article class="skill-card reveal"><span class="card-index">02</span><div class="skill-symbol">〈/〉</div><h3>Web development</h3><p>Building clean, responsive experiences for the web.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+        <article class="skill-card reveal"><span class="card-index">03</span><div class="skill-symbol">⌁</div><h3>Tools</h3><p>Keeping projects organized and collaborating with confidence.</p><div class="tags"><span>Git</span><span>GitHub</span></div></article>
+      </div>
+    </section>
+
+    <section class="section content-section" id="projects"><div class="section-heading reveal"><p class="eyebrow">03 / SELECTED WORK</p><h2>Learning through<br><span>making things.</span></h2><p class="section-subtitle">A small collection of projects and experiments. More are on the way.</p></div>
+      <div class="projects-grid">
+        <article class="project-card reveal"><div class="project-art amazon-art"><div class="browser-bar"><i></i><i></i><i></i><span>amazon.com</span></div><div class="amazon-banner">Discover something<br><b>you’ll love.</b></div><div class="product-row"><div>▰</div><div>◉</div><div>▱</div></div></div><div class="project-info"><div class="project-topline"><span class="project-number">01 — FRONT END</span><span class="project-arrow">↗</span></div><h3>Amazon Website Clone</h3><p>A front-end recreation of Amazon’s homepage, with familiar layout, product listings, and responsive design.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="#" aria-label="Add live demo link">Live demo ↗</a><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub repo ↗</a></div></div></article>
+        <article class="project-card upcoming-card reveal"><div class="upcoming-visual"><span class="constellation">✧　·　✦<br>　·　✧　·</span><span>Next idea loading</span></div><div class="project-info"><div class="project-topline"><span class="project-number">02 — IN PROGRESS</span><span class="project-arrow">✦</span></div><h3>More projects soon</h3><p>I’m always exploring new ideas and building my skills. Check back to see what I create next.</p><div class="tags"><span>Learning</span><span>Building</span></div></div></article>
+      </div>
+    </section>
+
+    <section class="section content-section education-section" id="education"><div class="section-heading reveal"><p class="eyebrow">04 / THE JOURNEY SO FAR</p><h2>Education<span class="accent">.</span></h2></div><article class="education-card reveal"><div class="edu-symbol">◎</div><div><p class="project-number">UNDERGRADUATE · IN PROGRESS</p><h3>Bachelor of Technology</h3><p class="edu-meta">Computer Science / Engineering <span>·</span> 2nd Year</p><p class="edu-note">Building a strong base in computer science, programming, and problem-solving.</p><div class="tags"><span>Data Structures</span><span>Programming</span><span>Web Development</span></div></div><div class="edu-date">BTech</div></article><p class="college-note">College name and coursework can be added here when you’re ready.</p></section>
+
+    <section class="section contact-section" id="contact"><div class="contact-orb" aria-hidden="true"></div><div class="contact-intro reveal"><p class="eyebrow">05 / LET’S CONNECT</p><h2>Have an opportunity<br>or an idea?</h2><p>I’m always happy to connect, learn, and talk about building for the web.</p><div class="contact-direct"><a href="mailto:karan@example.com">karan@example.com <span>↗</span></a><a href="https://linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub <span>↗</span></a></div></div>
+      <form class="contact-form reveal" action="https://formspree.io/f/YOUR_FORM_ID" method="POST"><label for="name">Name</label><input id="name" name="name" autocomplete="name" placeholder="Your name" required><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required><label for="message">Message</label><textarea id="message" name="message" rows="4" placeholder="What’s on your mind?" required></textarea><button class="button button-primary" type="submit">Send message <span aria-hidden="true">↗</span></button><p class="form-status" role="status" aria-live="polite"></p></form>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">KY</span><span>Karan Yadav</span></a><p>Made with curiosity <span>✦</span> © <span id="year"></span></p><a href="#top" class="back-top">Back to top ↑</a></footer>
+</body>
+</html>
